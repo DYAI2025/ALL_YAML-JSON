@@ -1,0 +1,20 @@
+driftachse:
+  beschreibung: Bewegung zwischen Nähebedürfnis und emotionalem Rückzug. Relevante
+    Dynamik in Bindungsmustern, toxischer Kommunikation und Romance Fraud.
+  name: Bindungsdynamik
+  neutralzone:
+    bereich: '0'
+    hinweis: Ausgewogene Position ohne akuten Drift
+  pol_minus:
+    bedeutung: Emotionale Abschottung, Rückzug, passiv-aggressive Distanzierung.
+    label: Rückzugsvermeidung
+    zugeordnete_marker:
+      emotionaler_rueckzugsdruck: -0.5
+      sarkasmus: -1
+  pol_plus:
+    bedeutung: Starkes Bedürfnis nach Nähe, Sicherheit, Kontakt. Häufig mit Angst
+      vor Verlassenwerden gekoppelt.
+    label: Bindungsdruck
+    zugeordnete_marker:
+      dynamic_knot: 1
+      emotionaler_rueckzugsdruck: 0.5

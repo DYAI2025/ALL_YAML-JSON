@@ -1,0 +1,72 @@
+---
+# Template: Visual Schema for Dynamic Knots (Mermaid Format)
+dynamic_knot_visual_template:
+  diagram_type: "mermaid"
+  zones:
+    - name: "Zone 1: Emotional Activation"
+      description: "Initial self-worth disruption and emotional triggers"
+      nodes:
+        - id: A
+          label: "Self-worth collapse"
+        - id: B
+          label: "Shame or guilt activated"
+        - id: AM1
+          label: "scham_profil"
+        - id: AM2
+          label: "schuldmarker"
+
+    - name: "Zone 2: Tension Amplification"
+      description: "Emergence of inner conflict, uncertainty, and relational ambiguity"
+      nodes:
+        - id: C
+          label: "Ambivalence + Unclarity increase"
+        - id: AM3
+          label: "ambivalenzmarker"
+        - id: AM4
+          label: "unklarheitsmarker"
+
+    - name: "Zone 3: Reactive Control & Steering"
+      description: "Shift into covert control and manipulative patterns"
+      nodes:
+        - id: D
+          label: "Reactive control begins"
+        - id: E
+          label: "Manipulative marker patterns appear"
+        - id: AM5
+          label: "empathy_koeder_marker"
+        - id: AM6
+          label: "anticipation_dynamic_manipulation_marker"
+        - id: F
+          label: "Partner reacts (rescue, justification, withdrawal)"
+        - id: G
+          label: "Power asymmetry grows"
+        - id: H
+          label: "Relationship fatigue or escalation"
+
+  edges:
+    - from: A
+      to: B
+    - from: B
+      to: C
+    - from: C
+      to: D
+    - from: D
+      to: E
+    - from: E
+      to: F
+    - from: F
+      to: G
+    - from: G
+      to: H
+    - from: B
+      to: AM1
+    - from: B
+      to: AM2
+    - from: C
+      to: AM3
+    - from: C
+      to: AM4
+    - from: E
+      to: AM5
+    - from: E
+      to: AM6

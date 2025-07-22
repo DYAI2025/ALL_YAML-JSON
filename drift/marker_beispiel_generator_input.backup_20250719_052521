@@ -1,0 +1,41 @@
+marker_beispiel_anforderungsliste:
+- definition: Emotionale Nähe, das Gefühl, gesehen zu werden
+  gewünschte_beispielanzahl: 20
+  kontext: zwischenmenschliche Kommunikation
+  name: Verbindung
+- definition: Gefühl, nicht genügen zu dürfen oder entblößt zu sein
+  gewünschte_beispielanzahl: 20
+  kontext: Selbstbild und soziale Konfrontation
+  name: Scham
+- definition: Gefühl, etwas aktiv bewirken zu können
+  gewünschte_beispielanzahl: 20
+  kontext: Handlungsspielraum, Autonomie
+  name: Selbstwirksamkeit
+- definition: Gefühl, keine Kontrolle oder Optionen zu haben
+  gewünschte_beispielanzahl: 20
+  kontext: akute emotionale Krisen, Überforderung
+  name: Hilflosigkeit
+- definition: Positive Selbstaufwertung durch erreichte Leistung oder Haltung
+  gewünschte_beispielanzahl: 20
+  kontext: Identität und Selbstbild
+  name: Stolz
+- definition: Gefühl, etwas falsch gemacht zu haben
+  gewünschte_beispielanzahl: 20
+  kontext: moralisches Handeln, Beziehung zu anderen
+  name: Schuld
+- definition: Ausweichverhalten, Flucht vor emotionaler Nähe oder Verantwortung
+  gewünschte_beispielanzahl: 20
+  kontext: Bindungsmuster, Unsicherheit
+  name: Vermeidung
+- definition: Zulassen von Nähe, Gefühl, Resonanz
+  gewünschte_beispielanzahl: 20
+  kontext: emotionale Selbstoffenbarung
+  name: Öffnung
+- definition: Kontrollierende, durchsetzungsstarke Haltung
+  gewünschte_beispielanzahl: 20
+  kontext: Machtverhältnisse in Kommunikation
+  name: Dominanz
+- definition: Rückzug, Anpassung an Macht
+  gewünschte_beispielanzahl: 20
+  kontext: passive emotionale Haltung
+  name: Unterwerfung

@@ -1,0 +1,12 @@
+# drift/rapid_topic_shift.yaml
+id: rapid_topic_shift
+name: Rapid Topic Shift
+description: >
+  More than 2 unrelated topics within 3 turns: potential manipulative pacing.
+triggers:
+  - window_turns: 3
+    distinct_topics: >2
+example:
+  - "Are you okay? [health]"
+  - "I love how sweet you are. [romance]"
+  - "By the way, wire $500 now. [money]"

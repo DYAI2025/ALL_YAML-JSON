@@ -1,0 +1,32 @@
+driftachse:
+  anwendungsbereiche:
+  - Selbstbildanalyse
+  - Coaching-Impulse
+  - emotionale Driftverläufe
+  - Stärken-/Blockaden-Profilierung
+  beschreibung: Diese Achse beschreibt die emotionale Bewegung zwischen lähmender
+    Scham und aktivierender Selbstwirksamkeit. Sie zeigt, ob eine Person sich zurückzieht
+    oder ins Gestalten kommt.
+  name: Scham-Selbstwirksamkeit
+  pole:
+    negativ:
+      beschreibung: Gefühl, nicht genügen zu dürfen, sich verbergen zu müssen oder
+        innerlich defizitär zu sein.
+      label: Scham
+    positiv:
+      beschreibung: Gefühl, aktiv etwas gestalten zu können, Einfluss auf das eigene
+        Leben zu haben und sich als handlungsfähig zu erleben.
+      label: Selbstwirksamkeit
+  zugeordnete_marker:
+  - intensitaet: 0.9
+    name: Scham
+    richtung: negativ
+  - intensitaet: 0.95
+    name: Selbstwirksamkeit
+    richtung: positiv
+  - intensitaet: 0.7
+    name: Schuld
+    richtung: negativ
+  - intensitaet: 0.8
+    name: Stolz
+    richtung: positiv

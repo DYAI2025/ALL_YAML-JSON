@@ -1,0 +1,27 @@
+
+# Drift Marker Axes – semantische Vektorisierungen von Bewegungsrichtungen
+
+A1_Polarisierung:
+  Achse: "Ich vs. Andere"
+  Drift: "von individueller Identität hin zu kollektiver Auflösung oder umgekehrt"
+  Marker: ["Selbstbehauptung", "Abgrenzung", "Eingliederung", "Verschmelzung"]
+
+A2_Kohärenz:
+  Achse: "Stabilität vs. Wandel"
+  Drift: "von konstanter Kohärenz zu emergentem Neuentwurf"
+  Marker: ["Konsistenz", "Bruch", "Übergang", "Mutation"]
+
+A3_Temporalität:
+  Achse: "Vergangenheit vs. Zukunft"
+  Drift: "von erinnerter Herkunft zur antizipierten Ausrichtung"
+  Marker: ["Retrospektive", "Ankerpunkt", "Projektion", "Zieltransformation"]
+
+A4_Emotionalität:
+  Achse: "Vermeidung vs. Hingabe"
+  Drift: "von Abwehrhaltungen hin zu Resonanzbereitschaft"
+  Marker: ["Distanziertheit", "Skepsis", "Zutrauen", "Verschmelzung"]
+
+A5_Sinnkonsistenz:
+  Achse: "Unbestimmtheit vs. Klarstruktur"
+  Drift: "von semantischer Offenheit zur strukturierten Sinnlinie"
+  Marker: ["Ambiguität", "Rahmung", "Fixierung", "Dogma"]

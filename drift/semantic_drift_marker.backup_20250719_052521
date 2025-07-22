@@ -1,0 +1,18 @@
+# drift/semantic_drift_marker.yaml
+id: semantic_drift_marker
+name: Semantic Drift
+description: >
+  Measures abrupt shifts in topic or sentiment between consecutive messages.
+triggers:
+  - type: "vector_distance"
+    algorithm: "SemaDriftFx"      # adapt Apache-2.0 Algorithm
+    threshold: 0.7                # empirisch bestimmen
+  - type: "topic_change"
+    method: "LDA"                 # optional
+co_markers:
+  - ambivalenzmarker
+  - unklarheitsmarker
+example:
+  - msg1: "I need help with my bank account."
+    msg2: "I miss you so much."
+suggested_response: "I notice the topic shifted quickly—can we pause and clarify?"

@@ -1,0 +1,5 @@
+Kategorie,Matches,Score,Threshold_Reached
+Emergente_Bewusstheit,,0.0,False
+Resonanzfeld,"resonanz, schwingung, mitschwingen",0.429,False
+Kontaktfeld,"berührung, begegnung, zwischenraum, lauschen",0.5,True
+Poetische_Emergenz,"bild, symbol, klang, melodie",0.5,True

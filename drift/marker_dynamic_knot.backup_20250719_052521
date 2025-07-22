@@ -1,0 +1,36 @@
+marker:
+  alias:
+  - dynamische Manipulation
+  - emotionaler Knoten
+  - dynamic knot
+  beispielanzahl_gewünscht: 20
+  bewertung:
+    emotionaler Druck: 0.9
+    manipulative Absicht: 0.95
+    soziale Gefährdung: 0.8
+  definition: Ein kommunikativer Mechanismus, bei dem eine Person gezielt Aussagen
+    oder Handlungen so gestaltet, dass sie bei der anderen Person eine erwartete emotionale
+    Reaktion auslöst – meist Schuld, Angst oder Zwang zur Nähe – um sie damit zu manipulieren.
+  indikatoren:
+  - plötzliche emotionale Überbetonung
+  - Reaktion bei der Zielperson erzeugt Schuld, Angst oder Rettungswunsch
+  - Nutzer wird in Verantwortung gedrängt, ohne direkte Forderung
+  kontext: emotionale Beziehungen, Romance Scams, toxische Kommunikation
+  name: antizipierte Manipulation
+  subtypen:
+  - beispiel:
+    - Wenn du mich wirklich lieben würdest, würdest du helfen.
+    - Ich wusste, du lässt mich genau jetzt wieder hängen.
+    name: Schuldaktivierung
+  - beispiel:
+    - Ich weiß nicht, wie lange ich das noch aushalte ohne dich.
+    - Vielleicht ist es besser, wenn ich einfach verschwinde …
+    name: Verlustdrohung
+  - beispiel:
+    - Ich bin so allein, niemand versteht mich.
+    - Ich kann das alles nicht ohne dich …
+    name: Pseudo-Hilflosigkeit
+  - beispiel:
+    - Du vertraust mir wohl nicht, oder?
+    - Ich dachte, du wärst anders als die anderen.
+    name: Vertrauenswippe

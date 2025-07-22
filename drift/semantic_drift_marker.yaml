@@ -1,0 +1,30 @@
+id: SEMANTIC_DRIFT_MARKER
+name: SEMANTIC_DRIFT
+description: 'Measures abrupt shifts in topic or sentiment between consecutive messages.
+
+  '
+triggers:
+- type: vector_distance
+  algorithm: SemaDriftFx
+  threshold: 0.7
+- type: topic_change
+  method: LDA
+co_markers:
+- ambivalenzmarker
+- unklarheitsmarker
+example:
+- msg1: I need help with my bank account.
+  msg2: I miss you so much.
+suggested_response: I notice the topic shifted quickly—can we pause and clarify?
+category: UNCATEGORIZED
+tags:
+- needs_review
+examples:
+- AUTO_GENERATED_EXAMPLE_1
+- AUTO_GENERATED_EXAMPLE_2
+- AUTO_GENERATED_EXAMPLE_3
+- AUTO_GENERATED_EXAMPLE_4
+- AUTO_GENERATED_EXAMPLE_5
+metadata:
+  last_repaired: '2025-07-19T05:25:21.973259'
+  repair_version: '1.0'

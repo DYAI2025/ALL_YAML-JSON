@@ -1,0 +1,25 @@
+drift_mapping:
+  achsen:
+  - achse: Bindungsdynamik
+    negativ_pol: Rückzugsvermeidung
+    positiv_pol: Bindungsdruck
+    zugeordnete_marker:
+    - antizipierte Manipulation
+    - emotionaler Rückzugsdruck
+    - Sarkasmus
+  - achse: Scham-Selbstwirksamkeit
+    negativ_pol: Scham
+    positiv_pol: Selbstwirksamkeit
+    zugeordnete_marker:
+    - Scham
+    - Selbstwirksamkeit
+    - Schuld
+    - Stolz
+  anwendungsbereiche:
+  - emotionale Profilanalyse
+  - Verlaufsvisualisierung
+  - Coaching-Triggerpunkte
+  - Selbstregulationshilfen
+  beschreibung: Multidimensionale emotionale Driftkarte basierend auf den Achsen Bindungsdynamik
+    und Scham-Selbstwirksamkeit.
+  name: Basis-Driftkarte

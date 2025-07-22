@@ -1,0 +1,163 @@
+# enhanced_chunk_analysis_template.yaml
+
+chunk_analysis:
+  # 1. Metadaten
+  chunk_id:             # Integer oder Zeitstempel
+    type: integer
+  time_frame:           # z.B. "05.–15.03.2025"
+    type: string
+  participants:         # z.B. [Ben, Zoé]
+    type: list[string]
+
+  # 2. Aktive Detektoren & Marker-Pipeline
+  detectors_active:     # Liste aller eingesetzten Detector-Klassen
+    - DETECT_EMOTIONAL_MANIPULATION
+    - EmotionDynamicsDetector
+    - DETECT_ESCALATION_MARKERS
+    - DETECT_SEMANTIC_PATTERNS
+    - "..."              # immer aktuell halten
+  markers_monitored:    # alle Marker-Kategorien, die durchgängig geprüft werden
+    - atomic_markers
+    - cluster_markers
+    - semantic_markers
+    - meta_markers
+
+  # 3. High-Level-Snapshot
+  high_level_snapshot:
+    question:           # Markerbasierte Leitfrage für diesen Chunk
+      type: string
+    summary:            # 1–2 Sätze Kernergebnis, datenfundiert
+      type: string
+
+  # 4. Meta-Marker-Matrix
+  meta_marker_matrix:
+    - cluster:
+        type: string    # Name des Clusters, z.B. "Therapie-Reflexion"
+      top_marker:
+        name: string
+        count: integer
+      meta_marker:
+        name: string
+        count: integer
+      interpretation:
+        type: string    # 1–2 Sätze
+
+  # 5. Trend-Analyse (Chunk-Level)
+  trend_analysis:
+    valence:           # aggregierter Valenz-Score
+      type: number
+    intimacy:          # aggregierter Intimitäts-Score
+      type: number
+    arousal:           # aggregierter Arousal-Score
+      type: number
+    dominance:         # aggregierter Dominance-Score
+      type: number
+    volatility:        # aggregierter Volatilitäts-Score
+      type: number
+
+  # 6. Marker-Counts (Detail)
+  marker_counts:
+    - marker: string
+      count: integer
+
+  # 7. Driftachsen (Chunk-Level)
+  drift_axes:
+    - axis: string      # z.B. "intimacy_vs_distance"
+      value: number     # Position auf der Achse (–1…+1)
+      trend: string     # "steigend", "fallend", "stabil"
+      interpretation:
+        type: string
+
+  # 8. Emergent Pattern & Ephemeral Events
+  emergent_patterns:
+    description:       # Erläuterung, warum Muster hier relevant sind
+      type: string
+    events:
+      - pattern_name: string      # z.B. "Einmaliger Sarkasmus"
+        detector: string          # Detektor-/Marker-ID
+        excerpt: string           # Originaltext-Snippet, falls vorhanden
+        count: integer            # 1 für einmalig
+
+  # 9. Syntax- und Verhaltenserkennung
+  syntax_analysis:
+    noteworthy_features:         # z.B. ungewöhnliche Zeichensetzung, Intensifier
+      - feature: string
+        example: string
+        interpretation: string
+
+  # 10. Narrative Interpretation
+  narrative_interpretation:
+    text:               # Kurze, datenfundierte Prosa, rein Marker- / Detektor-gestützt
+      type: string
+
+  # 11. Validity & Change-Detection-Checks
+  validity_checks:
+    - check: string     # z.B. "Marker-Counts gegen Raw-Log verifiziert"
+    - check: string     # z.B. "Emergent Patterns bestätigt durch Sliding-Window"
+
+  # 12. Chunk-Fazit / Empfehlung
+  conclusion:
+    text:               # 1–2 Sätze, Teilergebnis und Ausblick
+      type: string
+
+---
+# chunk_gap_scan_template.yaml
+
+chunk_gap_scan:
+  chunk_id: 0
+  gap_snapshot:
+    unanswered_questions: 0
+    delayed_replies: 0
+    missing_reassurance: false         # Detektor schlägt an, wenn true
+  silence_patterns:
+    - marker: A_DELAYED_REPLY
+      count: 0
+    - marker: S_INTERACTIVE_STONEWALLING
+      count: 0
+  attachment_shift:
+    axis_intimacy_vs_distance: 0.0   # –1 … +1, negative Werte = Distanz
+  interpretation_marker_based: |
+    # Beispiel: Mehrfach unerwiderte Nachfragen → erhöhtes Rückzugssignal.
+  validity_checks:
+    - "Marker-Counts gegen Raw-Log geprüft"
+
+---
+# chunk_need_probe_template.yaml
+
+chunk_need_probe:
+  chunk_id: 0
+  need_indicators:
+    reassurance_requests: 0
+    soft_commitments_offered: 0
+  attachment_markers:
+    avoidant_markers: 0        # z.B. C_ADAPTIVE_POLARIZATION
+    anxious_markers: 0
+  inner_fear_markers:
+    past_wound: 0
+    meaning_crisis: 0
+  composite_scores:
+    unsaid_need_index: 0.0     # Need-Marker ÷ (Need+Repair)
+    attachment_style_vector:
+      anxious: 0.0
+      avoidant: 0.0
+      secure: 1.0
+  interpretation_marker_based: |
+    # Beispiel: Vermeidender Stil dominiert; Bedürfnis nach Nähe bleibt implizit.
+  validity_checks:
+    - "Detektor-Thresholds ≥ schema_config"
+
+---
+# interim_deep_profile_template.yaml
+
+interim_deep_profile:
+  period: chunks_1_to_9
+  gap_index: 0.0
+  unsaid_need_ratio: 0.0
+  attachment_profile:
+    anxious: 0.0
+    avoidant: 0.0
+    secure: 1.0
+  key_meta_markers_active: []
+  key_meta_markers_missing: []
+  narrative_marker_based: |
+    # Beispiel: Hoher vermeidender Anteil, deutliche Lücken in Reassurance.
