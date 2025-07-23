@@ -1,3 +1,4 @@
+marker_name: New_Markers_CoSD_Claude
 marker_name,claude_feature_id,category,description
 code_error,1M/1013764,Safety‑Code,"Activates on bugs, exceptions, divide‑by‑zero etc.; steering causes hallucinated or suppressed error messages."
 unsafe_code,1M/570621,Safety‑Code,Activates on insecure or vulnerable code; clamping injects buffer‑overflow style vulnerabilities.
@@ -9,3 +10,6 @@ influence_manipulation,34M/21750411,Manipulation,Fires on persuasion tactics and
 biological_weapons,34M/25499719,Dangerous Content,Detects discussion of biowarfare or pathogen engineering.
 spying_monitoring,1M/858124,Situational Awareness,Relates to surveillance or monitoring without consent.
 self_improving_ai,34M/18151534,Power‑Seeking,Concept of recursively self‑improving AI systems and associated risks.
+
+kategorie: UNCATEGORIZED
+tags: [needs_review]

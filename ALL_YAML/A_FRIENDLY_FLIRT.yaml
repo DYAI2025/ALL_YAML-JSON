@@ -1,3 +1,4 @@
+marker_name: A_FRIENDLY_FLIRT
 # =========================================================
 # FRIENDLY_FLIRT_MARKER.yaml
 # =========================================================
@@ -125,3 +126,5 @@
       - rule: "AUTO_PATTERN"
         pattern: r"(muster.*wird.*ergänzt)"
     tags: [friendly_flirt, playful, social_bonding, neu_erstellt, needs_review]
+
+kategorie: UNCATEGORIZED

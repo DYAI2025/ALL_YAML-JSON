@@ -1,0 +1,13 @@
+# -_ID_MARKER - Semantic Marker
+marker_name: -_ID_MARKER
+beschreibung: >
+  
+beispiele:
+
+semantische_grabber_id: AUTO_SEM_20250723_7A6F
+
+metadata:
+  created_at: 2025-07-23T00:25:47.219595
+  created_by: FRAUSAR_GUI_v2
+  version: 1.0
+  tags: [neu_erstellt, needs_review]

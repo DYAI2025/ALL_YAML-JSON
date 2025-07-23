@@ -1,3 +1,4 @@
+marker_name: DRIFT_AXIS
 driftachsen_set:
   achsen:
   - name: Bindungsdynamik
@@ -18,3 +19,6 @@ driftachsen_set:
   beschreibung: Bündelt zentrale emotionale Driftachsen zur Analyse und Visualisierung
     in Kommunikationssystemen.
   name: Basis-Driftachsen
+
+kategorie: UNCATEGORIZED
+tags: [needs_review]

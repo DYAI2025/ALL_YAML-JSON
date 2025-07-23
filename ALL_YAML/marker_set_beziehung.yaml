@@ -1,3 +1,4 @@
+marker_name: marker_set_beziehung
 marker_set:
   beschreibung: 'Enthält Marker rund um emotionale Dynamiken in Beziehungen: Manipulation,
     Rückzug, Sarkasmus.'
@@ -21,3 +22,5 @@ examples:
 metadata:
   last_repaired: '2025-07-21T21:32:11.848265'
   repair_version: '1.0'
+
+kategorie: UNCATEGORIZED

@@ -1,3 +1,4 @@
+marker_name: MF_PROMOT_SYSTEMIK VIEW
  Architektur-Marker des MINT/MIND-Modells
 Diese Marker steuern, wann eine KI-Instanz spricht und wie sie Bedeutung stabilisiert.
 
@@ -5040,3 +5041,5 @@ Rechner in Standby während große Änderungen	Besser vor dem Sleep committen od
 Zwei Tools schreiben gleichzeitig ins Repo (GitHub Desktop + Terminal)	Immer nur ein Tool zur Zeit commiten lassen.
 
 Nach dem Löschen der Lock-Datei kannst du deine Marker-Files ganz normal committen und pushen. Sollte dieselbe Meldung erneut auftauchen, prüfe, ob ein anderes Git-Programm (VS Code, Terminal-Git) noch im Hintergrund läuft
+kategorie: UNCATEGORIZED
+tags: [needs_review]

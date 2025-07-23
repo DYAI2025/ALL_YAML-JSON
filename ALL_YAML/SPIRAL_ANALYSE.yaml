@@ -1,3 +1,4 @@
+marker_name: SPIRAL_ANALYSE
 Kategorie,Matches,Score,Threshold_Reached
 Beige_Survival,"nahrung, sicherheit, schutz",0.5,True
 Purpur_Tribal,"ritual, magie",0.333,False
@@ -8,3 +9,6 @@ Grün_Community,"harmonie, empathie",0.4,False
 Gelb_Integration,"system, komplexität, integration, paradox",0.8,True
 Türkis_Holistic,"bewusstsein, transzendenz",0.4,False
 Coral_Cosmic,,0.0,False
+
+kategorie: UNCATEGORIZED
+tags: [needs_review]

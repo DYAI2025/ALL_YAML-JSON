@@ -1,3 +1,4 @@
+marker_name: WEIGHTS_FOR_TEXT_MARKER
 Meta_Text:
   self_ref:
     weight: 0.8
@@ -41,3 +42,5 @@ examples:
 metadata:
   last_repaired: '2025-07-21T21:32:11.853239'
   repair_version: '1.0'
+
+kategorie: UNCATEGORIZED
